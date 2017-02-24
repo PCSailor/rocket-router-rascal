@@ -1,10 +1,10 @@
 {
-  "name": "mochacourse",
+  "name": "philcurtis",
   "version": "1.0.0",
   "description": "Express challenge tested with mocha and chai",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0"
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1"
   },
   "devDependencies": {
     "chai": "^1.9.2",
@@ -14,8 +14,20 @@
   },
   "scripts": {
     "start": "node lib/server/app.js",
-    "test": "./node_modules/.bin/mocha -R list"
+    "test": "mocha -R list"
   },
   "author": "Luke Schlangen",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PCSailor/rocket-router-rascal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PCSailor/rocket-router-rascal/issues"
+  },
+  "homepage": "https://github.com/PCSailor/rocket-router-rascal#readme"
 }
